@@ -14,7 +14,8 @@ const Expenses = (props) => {
 
   return (
     <Card className="expenses">
-      <ExpenseList />
+      <ExpenseList items={filteredExpenses}/>
     </Card>
   );
 };
+export default Expenses;
